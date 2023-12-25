@@ -19,9 +19,9 @@ Often times, complex libraries could have a learning curve and even a steeper on
 This project uses, a frequency based algorithm, that is not only intuitive but is easy to tweak.
 
 ## Can break down the algorithm into 3 steps
-1. Identify the most popular (n) tokens, that become our topics in the text corpus.
-2. Genenerate all possible two word combinations of the n tokens, and obtain their respective frequencies from the text corpus.
-3. Combine the two sets of tokens ( which is like our bigger vocabulary) to obtain the new most popular (n) tokens.
+1. Identify the most popular (n) tokens (that become our topics) from the text corpus.
+2. Genenerate all possible 2 word combinations of the n tokens (nc2), and obtain their respective frequencies from the text corpus.
+3. Combine the two sets of frequency dictionaries ( which is like our bigger vocabulary) to obtain the new most popular (n) tokens/topics.
 
 This is inspired by the byte pair tokenisation employed by the famous BERT model. [Hugging Face implementation of BERT](https://huggingface.co/learn/nlp-course/chapter6/5?fw=pt)
 
